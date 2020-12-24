@@ -9,17 +9,28 @@
     <p id="description">Thank you for taking the time to help us improve the service  </p>
     
     <form id="survey-form">
-        <label for="name" id="name-label">First name:</label><br>
-        <input type="text" id="name" value=""><br><br>
+        <label for="name" id="name-label">Name</label><br>
+        <input type="text" id="name" placeholder="enter your name"><br><br>
 
-        <label for="email" id="email-label" >Your email:</label><br>
+        <label for="email" id="email-label" >Email</label><br>
         <input type="email" id="email" placeholder="enter an email" />
 	   <br><br>
         
         
-        <label for="number" id="number-label" >Age:</label><br>
-        <input type="number" id="number" placeholder="enter your number" min="5" max="50" step="1"><br><br>
-        
+        <label for="number" id="number-label" >Age(optional)</label><br>
+        <input type="number" id="number" placeholder="enter Age" min="5" max="50" step="1"><br><br>
+        <label for="roles" placeholder="Select current Role">Which option best describes your current Role:<br></label>
+       
+<select name="roles" id="roles" placeholder="Select current Role">
+ 
+ <option disabled="" selected="" >Select current role</option>
+  <option value="student">student</option>
+  <option value="full time job">full time job</option>
+  <option value="full time learner">full time learner</option>
+  <option value="rather not to say">rather not to say</option>
+      <option value="other"></option>
+</select>
+        <br>
         
         
         
